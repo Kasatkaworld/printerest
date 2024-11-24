@@ -24,9 +24,29 @@
   ],
   "products": [
     {
+      "id": 1,
+      "printer": "Canon Pixma TS3340",
+      "price": "4199",
+      "pimg": "https://content.rozetka.com.ua/goods/images/big/429976195.jpg"
       
-
-
+    },
+    {
+      "id": 2,
+      "printer": "Canon i-SENSYS MF3010",
+      "price": "12399",
+      "pimg": "https://content1.rozetka.com.ua/goods/images/big/45483317.jpg"
+    },
+    {
+      "id": 3,
+      "printer": "Xerox WorkCentre 3025BI",
+      "price": "6762",
+      "pimg": "https://content2.rozetka.com.ua/goods/images/big/47818579.jpg"
+    },
+    {
+      "id": 4,
+      "printer": "Epson EcoTank L3251",
+      "price": "10059",
+      "pimg": "https://content.rozetka.com.ua/goods/images/big/311366595.jpg"
     }
 
   ]
