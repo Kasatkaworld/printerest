@@ -6,8 +6,13 @@
         "surname": "Tyhonchuk",
         "photo_url": "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x4.jpg",
         "balance": 20000
-
-
+      },
+      {
+        "id": 2,
+        "name": "Sofia",
+        "surname": "Smith",
+        "photo_url": "https://cdn.myonlinestore.eu/93f2a978-6be1-11e9-a722-44a8421b9960/image/cache/full/89d6426a608f770291a422b920737cd274056519.jpg?20241104143440",
+        "balance": 0
       }
     
   ]
