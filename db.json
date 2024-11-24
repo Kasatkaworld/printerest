@@ -13,8 +13,14 @@
         "surname": "Smith",
         "photo_url": "https://cdn.myonlinestore.eu/93f2a978-6be1-11e9-a722-44a8421b9960/image/cache/full/89d6426a608f770291a422b920737cd274056519.jpg?20241104143440",
         "balance": 0
+      },
+      {
+        "id": 3,
+        "name": "Vlad",
+        "surname": "Korchevsky",
+        "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBtuAHayX2Cjbmq5DuvygoqGnlBvSvYaaUnw&s",
+        "balance": 15000
       }
-    
   ]
   
 }
