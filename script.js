@@ -7,9 +7,9 @@ fetch("./db.json").then(async function(resonce){
         container.innerHTML += `
         <div class="item">
         <h3>${product.printer}</h3>
-        <img src="${product.pimg}">
+        <img src="${product.ping}">
         <p id="desc">${product.description}</p>
-        <a href=""><p>Seller Profile</p></a>
+        <a href="product/product.html?id="${product.id}""><p>Seller Profile</p></a>
         <button>$${product.price}</button>
         </div>
         `
