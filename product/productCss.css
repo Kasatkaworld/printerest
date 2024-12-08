@@ -1,6 +1,7 @@
 body{
-    background-color: gray;
+    background-color: white;
     font-style: italic;
+    /* background: linear-gradient(to left,gray, da); */
 }
 button{
     border-radius: 40%;
