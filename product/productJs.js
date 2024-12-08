@@ -3,7 +3,7 @@ let Price = document.getElementById("price")
 let Img = document.getElementById("img")
 let disc = document.getElementById("description")
 console.log(Img)
-let idNeeded = 1
+let id = 1
 fetch("../db.json").then(async function(responce){
     console.log(responce)
     const result = await responce.json()
