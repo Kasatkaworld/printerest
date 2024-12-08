@@ -9,7 +9,7 @@ fetch("../db.json").then(async function(responce){
     const result = await responce.json()
     
     for (let prod of result.products) {
-        if (idNeeded ==  prod.id) {
+        if (id ==  prod.id) {
             Name.innerText = prod.printer
             Price.innerText = prod.price
             Img.src = prod.ping
