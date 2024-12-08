@@ -1,3 +1,5 @@
+let cartProd = document.getElementById("cart-products")
+
 fetch("./db.json").then(async function(resonce){
     const result = await resonce.json()
     console.log(result)
@@ -7,7 +9,7 @@ fetch("./db.json").then(async function(resonce){
         container.innerHTML += `
         <div class="item">
         <h3>${product.printer}</h3>
-        <img src="${product.pimg}">
+        <img src="${product.ping}">
         <p id="desc">${product.description}</p>
         <a href=""><p>Seller Profile</p></a>
         <button>$${product.price}</button>
@@ -17,3 +19,6 @@ fetch("./db.json").then(async function(resonce){
     }
     
 })
+function openCart(){
+    cartProd.classList.toggle('hide')
+}
