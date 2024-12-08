@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+    font-style: italic;
+    /* background: linear-gradient(to left,gray, da); */
+}
+button{
+    border-radius: 40%;
+    width: 200px;
+    height: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.content *{
+    margin: 0px 50px;
+}
+.content img{
+    width: 600px;
+    height: 500px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.info *{
+    margin: 10px 0px;
+}
