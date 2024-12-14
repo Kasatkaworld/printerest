@@ -86,8 +86,21 @@ header {
     background-color: white;
     top: 6rem;
     right: 3rem;
-    
+    color: black;
     position: absolute;
     padding: 10px;
     text-align: left;
+    width: 18rem;
+}
+#cart-products::before {
+    content: "";
+    border: transparent solid 16px;
+    border-bottom: solid white 16px;
+    position: relative;
+    top: -2.7rem;
+    left: 15.9rem;
+    z-index: -1;
+}
+#cart-products span{
+    width: 100%;
 }
