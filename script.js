@@ -75,7 +75,3 @@ function updateProdList(){
     
     
 }
-
-
-
-
