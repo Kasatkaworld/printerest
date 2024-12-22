@@ -29,7 +29,7 @@ fetch(url, {
         `
         console.log(product)
     }
-})
+
     if(localStorage.getItem("cart")){
         prodList = JSON.parse(localStorage.getItem("cart"));
         updateProdList();
